@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "description": "Git repo tester",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkhays/test.git"
+  },
+  "keywords": [
+    "lint"
+  ],
+  "author": "gkh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkhays/test/issues"
+  },
+  "homepage": "https://github.com/gkhays/test#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1"
+  }
+}
