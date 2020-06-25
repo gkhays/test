@@ -1,6 +1,12 @@
-# test
+# Test Repo
 
-Test repository for trying out new features and concepts
+Test repository for trying out new features and concepts.
+
+## Git Hooks
+
+The `run-eslint.sh` git hook is triggered and visible in Sourcetree.
+
+![Sourcetree](images/sourcetree.png)
 
 ## ESLint
 
