@@ -12,4 +12,4 @@ jobs:
           curl -sL  -X POST -d @- \
             -H "Content-Type: application/json" \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/pawarashish564/Github-actions-bot-tutorial/issues"
+            "https://api.github.com/repos/gkhays/test/issues"
