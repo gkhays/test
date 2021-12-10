@@ -1,0 +1,15 @@
+name: Issue Creator
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Create A Issue
+        run: |
+          export num=$(( ( RANDOM % 1000 )  + 1 ))
+          jq -nc '{"title":("Issue No"+env.num),"body": "issue created from bot"}' | \
+          curl -sL  -X POST -d @- \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/pawarashish564/Github-actions-bot-tutorial/issues"
