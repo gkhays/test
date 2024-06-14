@@ -16,3 +16,15 @@ To get around the requirement for an `.eslintrc.*` run with the no-config switch
   --no-eslintrc                   Disable use of configuration from .eslintrc.*
   --ext [String]                  Specify JavaScript file extensions
 ```
+
+## Callouts
+
+Warning
+> [!WARNING]
+> Be careful!
+
+Note
+> [!NOTE]
+> Hello there.
+
+See [An option to highlight a "Note" and "Warning" using blockquote](https://github.com/orgs/community/discussions/16925).
